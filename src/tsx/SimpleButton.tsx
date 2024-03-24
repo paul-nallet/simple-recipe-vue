@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import { simpleButton, type SimpleButtonVariant } from "../styled-system/recipes";
+import { simpleButton, type SimpleButtonVariant } from "../../styled-system/recipes";
 export default defineComponent({
     name: "SimpleButton",
     props: {

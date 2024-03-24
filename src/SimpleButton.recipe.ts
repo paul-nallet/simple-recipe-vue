@@ -8,7 +8,7 @@ export const simpleButton = defineRecipe({
   },
   variants: {
     visual: {
-      funky: { bg: "red.200", color: "white" },
+      funky: { bg: "rebeccapurple", color: "white" },
       edgy: { border: "1px solid {colors.red.500}" },
     },
     size: {
@@ -19,10 +19,5 @@ export const simpleButton = defineRecipe({
       square: { borderRadius: "0" },
       circle: { borderRadius: "full" },
     },
-  },
-  defaultVariants: {
-    visual: "funky",
-    size: "sm",
-    shape: "circle",
   },
 });

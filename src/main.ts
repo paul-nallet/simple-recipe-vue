@@ -1,6 +1,8 @@
 import "./assets/main.css";
 
 import { createApp } from "vue";
-import App from "./App.tsx";
+import AppTSX from "./tsx/App";
+import AppSFC from "./sfc/AppSFC.vue";
 
-createApp(App).mount("#app");
+createApp(AppTSX).mount("#app-tsx");
+createApp(AppSFC).mount("#app-sfc");
